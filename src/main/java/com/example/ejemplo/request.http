@@ -1,0 +1,38 @@
+
+
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+"nombre": "Completo",
+"descripcion": "Completo italiano con tomate, palta y mayonesa",
+"precio": 3990,
+"stock": 20,
+"categoria": "Comida Rapida"
+}
+
+###
+
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Churrillana",
+  "descripcion": "Carne, cebolla, papas fritas y huevo",
+  "precio": 9990,
+  "stock": 15,
+  "categoria": "Comida Rapida"
+}
+
+###
+
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Pizza",
+  "descripcion": "Pizza familiar de queso y pepperoni",
+  "precio": 7990,
+  "stock": 10,
+  "categoria": "Comida Rapida"
+}
